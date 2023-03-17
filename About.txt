@@ -1,0 +1,17 @@
+Here's an example of how to create a parent div with 4 child divs in a single row using flexbox.
+
+Explanation:
+
+First, we create a div element with the class parent to act as the parent container for the child divs. We then create four child divs with the class child inside the parent div.
+
+Next, we use CSS to style the parent div with display: flex; to create a flex container. This allows us to use the power of flexbox to control the layout of the child elements.
+
+We set flex-wrap: nowrap; to ensure that all child elements remain in a single row, even if the screen width is not wide enough to accommodate them all.
+
+We then style the child divs with flex: 1; to distribute available space evenly among the child elements. This means that each child element will take up an equal amount of space within the parent div.
+
+To add some spacing between child elements, we set margin-right: 10px; on each child element, except for the last child element, which we select using the :last-child pseudo-class and remove the margin using margin-right: 0;.
+
+Finally, we add a background color and height to the child divs to make them visible on the screen.
+
+That's it! With this code, you'll have a parent div with 4 child divs in a single row using flexbox.
