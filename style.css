@@ -1,0 +1,15 @@
+.parent {
+  display: flex;
+  flex-wrap: nowrap; /* ensure all child elements remain in a single row */
+}
+
+.child {
+  flex: 1; /* distribute available space evenly among child elements */
+  height: 100px;
+  background-color: #ccc;
+  margin-right: 10px; /* add some spacing between child elements */
+}
+
+.child:last-child {
+  margin-right: 0; /* remove margin from last child element to avoid a gap */
+}
